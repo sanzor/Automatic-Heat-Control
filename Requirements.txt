@@ -1,0 +1,42 @@
+Documentatie tehnica:
+-Instalatie(mod de lucru-utilizari)
+I)Teorie  proces termic-scpi +banda transp condusa de un motor(mecatronica)+pot sa bag si o caracteristica statica + inertie ...etc
+II)Studiu de caz
+ 1)Incinte
+ 2)Surse de racire/incalzire
+ 3)Senzori tempperatura
+ 4)banda transportoare
+ 5)motor +reductor
+ 6)convertizor
+ 7)sursa de alimentare
+-hardware comanda/control
+I)teorie placa de achizitie/control , Semnal PWM ,de ce am folosit tranzisoare si nu Relee SSR
+II)Studiu de caz 
+ 1)arduino mega
+ 2)placa de control
+   1)control racire (bd 139)
+   2)control incalzire (mosfet irl540n)
+   3)poze+eagle
+ 3)conectica
+-software
+I) teorie 
+ 1)arduino software    (----prezentare-----)
+ 2)matlab GUIDE         
+ 3)eagle
+II)studiu de caz
+ functii - fct citire seriala (arduino)
+ 	 - fct identificare date(arduino)
+	 - fct trimitere date (arduino)
+	 - fct citire temperatura (arduino)
+-interfata grafica 
+	 -citirea
+	 -afisarea datelor
+	 -ctrl manual+automat		
+-control 
+   	I)teorie: comanda PID,discretizare,esantionare,....
+	II)Studiu de caz:
+	-Determinare model experimental (incalzire pana la ..caract statica+dinamica)
+	-prelucrare date Matlab
+	- Implementare regulator tip IRA
+	-discretizare si introducere in regulator
+    
